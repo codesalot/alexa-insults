@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Alexa Insulter</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+    body {
+        background-color: black;
+        color:white;
+    }
+
+    .instructions {
+        font-family: sans-serif;
+        font-size: large;
+    }
+
+    button.insulter {
+        padding:10px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(0, 140, 255);
+        color:white;
+        border-radius: 5px;
+        font-size: large;
+    }
+
+    p.insult {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: medium;
+        border:2px solid red;
+        width: 400px;
+        border-radius:5px;
+        padding: 5px;
+    }
+</style>
+<script src="main.js"></script>
+<body>
+
+<div class="instructions">
+ <h1>Alexa Insulter</h1>
+ <p>We have gathered as many Alexa insults as we can.</p>
+ <p>Watch as Alexa proceeds to insult you.</p>
+</div>
+
+<button onclick="insult()" class="insulter">Be Insulted</button>
+<p class="insult" id="insult"></p>
+
+</body>
+</html>
+
