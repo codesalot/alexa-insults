@@ -1,2 +1,2 @@
-# alexa-insults
-Just a tiny little project I made that chooses an insult provided by Alexa for you.
+# Alexa Insults
+Just a little project I made that will insult you by using one from Alexa.
